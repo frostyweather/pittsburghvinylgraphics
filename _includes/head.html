@@ -1,0 +1,21 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11">
+	<meta property="og:title" content="Pittsburgh Vinyl Graphics">
+	<meta property="og:description" content="Your one-stop shop for all of your commercial and pesonal vinyl needs">
+	<meta property="og:image" content="/images/pittsburgh-incline.jpg">
+	<meta property="og:url" content="http://pittsburghvinylgraphics.com">
+	<meta name="twitter:card" content="pittsburgh_incline_image">
+
+	<meta property="og:site_name" content="Pittsburgh Vinyl Graphics">
+	<meta name="twitter:image:alt" content="pittsburgh incline photo">
+
+	<title>{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% elsif page.type == "landing" %}{{ page.parent }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+	<link rel="stylesheet" href="{{ "/css" | prepend: site.baseurl }}/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto+Slab:400,700" rel="stylesheet">
+
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+</head>

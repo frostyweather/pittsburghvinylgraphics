@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+	<main role="main" class="main">
+        <div class= "l-container">
+
+            <section class="c-section">
+                <h3 class="c-kicker">Website Coming Soon!</h3>
+                <h1>{{ site.title }}</h1>
+                <img src="/images/triangles.svg" class="c-graphic" />
+                <p>Your one-stop shop for your commercial and personal vinyl needs!</p>
+                <h3 class="u-text-uppercase u-text-italic">Call <a href=tel:412-226-5006>412-226-5006</a> For a Quote</a></h3>
+                {{ content }}
+                <div class="vcard adr">
+                    <div class="street-address">23 Dewey Ln</div>
+                    <div class="street-address">Suite D1</div>
+                    <span class="locality">Gibsonia</span>, <span class="region">PA</span> <span class="postal-code">15044<span>
+                </div>
+            </section>
+
+        </div>
+	</main>
+
+</body>
+
+</html>

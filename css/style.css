@@ -1,0 +1,255 @@
+/*------------------------------------*\
+    #RESET
+\*------------------------------------*/
+
+/**
+ * Use border box on all elements
+ */
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/**
+ * Zero out margin and padding on most elements as base style
+ */
+html,
+body,
+div,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+form,
+legend,
+label,
+table,
+header,
+footer,
+nav,
+section,
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * Display block as base for these elements
+ */
+header,
+footer,
+nav,
+section,
+article,
+hgroup,
+figure {
+	display: block;
+}
+
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+/**
+ * Body base styles
+ */
+body {
+	background: #fff;
+	color: #444444;
+	font: 100%/1.5 "Roboto Slab", "Helvetica", "Arial", sans-serif;
+	-webkit-text-size-adjust: 100%;
+	min-height: 100vh;
+	display: block;
+}
+
+/*------------------------------------*\
+    #HEADINGS
+\*------------------------------------*/
+
+/**
+ * Heading 1
+ */
+h1 {
+	font-size: 2.2rem;
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
+	font-family: "Oswald", "Times New Roman", serif;
+}
+
+@media all and (min-width: 585px) {
+	h1 {
+		font-size: 3rem;
+	}
+}
+
+/**
+ * Heading 2
+ */
+h2 {
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
+	font-family: "Oswald", "Times New Roman", serif;
+}
+
+/**
+ * Heading 3
+ */
+h3 {
+	margin-bottom: 0.5rem;
+	line-height: 1.2;
+	font-family: "Oswald", "Times New Roman", serif;
+}
+
+/**
+ * Heading 4
+ */
+h4 {
+	margin-bottom: 0.5rem;
+	font-family: "Oswald", "Times New Roman", serif;
+}
+
+/**
+ * Heading 5
+ */
+h5 {
+	margin-bottom: 0.5rem;
+	font-family: "Oswald", "Times New Roman", serif;
+}
+
+/**
+ * Heading 6
+ */
+h6 {
+	margin-bottom: 0.5rem;
+	font-family: "Oswald", "Times New Roman", serif;
+}
+/**
+ * Paragraphs
+ */
+p {
+	margin-bottom: 1rem;
+}
+
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+/**
+ * Ordered/Unordered list base styles
+ */
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: square;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+ol {
+	list-style: default;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+}
+
+/*------------------------------------*\
+    #LINKS
+\*------------------------------------*/
+
+/**
+ * Links
+ */
+a {
+	color: #808080;
+	outline: 0;
+	transition: all 0.2s ease;
+}
+
+a:hover {
+	color: #444444;
+}
+
+a:focus {
+	color: #444444;
+}
+
+/*------------------------------------*\
+    #MEDIA ELEMENTS
+\*------------------------------------*/
+
+/**
+ * Make media elements responsive
+ */
+img,
+video,
+object {
+	max-width: 100%;
+	height: auto;
+}
+
+/**
+ * Iframe base styles
+ */
+iframe {
+	margin-bottom: $space;
+}
+
+/**
+ * Figure base styles
+ */
+figure {
+	margin-bottom: $space;
+}
+
+/**
+ * Figure image base styles
+ */
+figure img {
+	margin-bottom: $space-half;
+}
+
+/**
+ * Figure caption base styles
+ */
+figcaption {
+	font-style: italic;
+}
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+/**
+ * Layout container
+ */
+.l-container {
+	max-width: 50rem;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.c-kicker {
+	text-transform: uppercase;
+	font-style: italic;
+	margin-bottom: 0.2rem;
+}
+
+.u-text-uppercase {
+	text-transform: uppercase !important;
+}
+
+.u-text-italic {
+	font-style: italic !important;
+}
