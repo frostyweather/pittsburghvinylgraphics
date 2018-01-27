@@ -173,17 +173,17 @@ ol {
  * Links
  */
 a {
-	color: #808080;
+	color: #827820;
 	outline: 0;
 	transition: all 0.2s ease;
 }
 
 a:hover {
-	color: #444444;
+	color: #808080;
 }
 
 a:focus {
-	color: #444444;
+	color: #808080;
 }
 
 /*------------------------------------*\
@@ -246,10 +246,24 @@ figcaption {
 	margin-bottom: 0.2rem;
 }
 
+.c-tagline {
+	font-size: 1.2rem;
+	font-family: "Oswald", "Times New Roman", serif;
+}
+
+.c-address {
+	font-family: "Oswald", "Times New Roman", serif;
+	font-weight: bold;
+}
+
 .u-text-uppercase {
 	text-transform: uppercase !important;
 }
 
 .u-text-italic {
 	font-style: italic !important;
+}
+
+.u-margin-bottom {
+	margin-bottom: 1rem !important;
 }

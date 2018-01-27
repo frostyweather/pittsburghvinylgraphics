@@ -10,9 +10,9 @@ layout: index
 * Commercial solutions for fleet and office, store front and retail.
 
 ## Surfaces that vinyl can be applied to:
-* Flat & textured walls in your home or office.
+* Flat and textured walls in your home or office.
 * Automobiles
 * Brick, concrete and hardwood floors.
 
 ## Contact Us
-* Monday-Sunday 8-7pm
+* **Hours:** Monday-Sunday 8am-7pm
